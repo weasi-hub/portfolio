@@ -431,6 +431,12 @@ footer {
     font-size: 48%;
   }
 
+  /* Hero styles  */
+
+  .social_links {
+    gap: 1.8rem;
+  }
+
   /* Projects styles  */
 
   .projects_card {
