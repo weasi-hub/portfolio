@@ -2,9 +2,7 @@
 
 Welcome to my personal **Portfolio Website** – a responsive and modern showcase of my frontend skills and featured projects.
 
-🔗 **Live Demo:**
-
-- [portfolio-six-wheat-58.vercel.app]
+🔗 **Live Demo:** [portfolio-six-wheat-58.vercel.app](https://portfolio-six-wheat-58.vercel.app)
 
 ---
 
