@@ -187,12 +187,12 @@ p {
 
 #skill {
   color: var(--dark-color);
-  padding: 10rem 0;
+  padding: 8rem 0;
 }
 
 #skill a {
   color: var(--dark-color);
-  font-size: 8rem;
+  font-size: 6.8rem;
 }
 
 .skill_container {
@@ -207,6 +207,10 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+}
+
+.skill_card > h4 {
+  font-size: 2rem;
 }
 
 .fa-html5 {
@@ -260,7 +264,13 @@ p {
   color: var(--dark-color);
 }
 
-.btn_preview {
+.btn_projects {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.btn_projects a {
   background-color: var(--brand-color);
   color: var(--light-color);
   padding: 1rem;
@@ -268,7 +278,7 @@ p {
   transition: all 0.1s linear;
 }
 
-.btn_preview:hover {
+.btn_projects a:hover {
   transform: scale(1.05);
 }
 
