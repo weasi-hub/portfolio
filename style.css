@@ -95,13 +95,26 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-block: 1.8rem;
+  padding-block: .8rem;
 }
 
 .nav_container > .logo > span {
   font-size: 3.6rem;
   font-family: "Satisfy", cursive;
   color: var(--light-color);
+}
+
+#sidebar {
+  display: none;
+}
+
+#overlay {
+  display: none;
+}
+
+.open_sidebar_btn, 
+.close_sidebar_btn {
+  display: none;
 }
 
 nav {
@@ -441,6 +454,40 @@ footer {
     font-size: 48%;
   }
 
+  /* Nav styles  */
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 30%;
+    background: #000000e4;
+    padding: 1.8rem;
+    transition: all .3s linear;
+  }
+
+  .open_sidebar_btn, 
+  .close_sidebar_btn {
+    display: block;
+    color: #fff;
+    font-size: 2.6rem;
+  }
+
+  #sidebar:checked ~ nav {
+    right: 0;
+  }
+  #sidebar:checked ~ #overlay {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
   /* Hero styles  */
 
   .social_links {
@@ -493,6 +540,12 @@ footer {
 
   p {
     font-size: 2rem;
+  }
+
+  /* Nav styles  */
+
+  nav {
+    width: 50%;
   }
 
   /* Header styles  */
