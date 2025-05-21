@@ -40,15 +40,15 @@ h1 {
 }
 
 h1 > span {
-  font-size: 6.2rem;
+  font-size: 5.4rem;
   font-weight: 600;
   color: var(--brand-color);
 }
 
 h2 {
-  font-size: 3.8rem;
+  font-size: 3.6rem;
   font-weight: 400;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
 }
 
 h3 {
@@ -95,7 +95,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-block: .4rem;
+  padding-block: 0.4rem;
 }
 
 .nav_container > .logo > span {
@@ -112,7 +112,7 @@ a {
   display: none;
 }
 
-.open_sidebar_btn, 
+.open_sidebar_btn,
 .close_sidebar_btn {
   display: none;
 }
@@ -361,7 +361,7 @@ p {
 }
 
 .contact_no > a {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   color: var(--dark-color);
 }
 
@@ -466,10 +466,10 @@ footer {
     width: 30%;
     background: #000000e4;
     padding: 1.8rem;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
   }
 
-  .open_sidebar_btn, 
+  .open_sidebar_btn,
   .close_sidebar_btn {
     display: block;
     color: #fff;
