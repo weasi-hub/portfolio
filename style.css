@@ -192,7 +192,7 @@ p {
 }
 
 .social_links > a:hover {
-  transform: scale(1.1);
+  transform: translateY(-0.3rem);
   background: var(--brand-color);
 }
 
@@ -273,6 +273,7 @@ p {
   padding: 2rem;
 }
 
+
 .card_content > p {
   color: var(--dark-color);
 }
@@ -292,7 +293,8 @@ p {
 }
 
 .btn_projects a:hover {
-  transform: scale(1.05);
+  transform: translateY(-0.3rem);
+  background-color: #d53900;
 }
 
 /* Edu styles  */
@@ -403,13 +405,15 @@ p {
   background-color: var(--brand-color);
   color: var(--light-color);
   padding: 1rem;
-  transition: all 0.2s linear;
+  transition: all 0.1s linear;
   width: 100%;
   text-align: center;
+  border-radius: 6px;
 }
 
 .btn_form:hover {
-  transform: scale(1.02);
+  transform: translateY(-0.3rem);
+  background: #d53900;
 }
 
 /* Footer styles  */
